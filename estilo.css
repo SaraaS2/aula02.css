@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.049);
+    color: white;
+    font-family: sans-serif;
+}
+header, section{
+    max-width: 1024px;
+    margin: 0 auto;
+    
+}
+header{
+    height: 100vh;
+}
+
+header .nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    color: hotpink;
+}
+.hero{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+button{
+    background-color: hotpink;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    color: pink;
+    font-weight: bold;
+    cursor: pointer;
+}
+section{
+    background-color: pink;
+}
